@@ -1,17 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-//create your first component
-const Home = () => {
-	return (
-		<React.Fragment>
-			<Counter />
-		</React.Fragment>
-	);
-};
-
-export default Home;
-
 export const Counter = (props) => {
 	return (
 		<div className="container d-flex bg-dark">
@@ -33,9 +22,7 @@ export const Counter = (props) => {
 				<p className="text-light">{props.numberTwo % 10}</p>
 			</div>
 			<div className="justify-content-center col-2 fs-1">
-				<p className="text-light" style={{ color: "white" }}>
-					{props.numberOne % 10}
-				</p>
+				<p className="text-light">{props.numberOne % 10}</p>
 			</div>
 		</div>
 	);

@@ -8,15 +8,6 @@ import "../styles/index.css";
 //import your own components
 import Home, { Counter } from "./component/home.jsx";
 
-//render your react application
-// Counter.propTypes = {
-// 	seg1: propTypes.number,
-// 	seg2: propTypes.number,
-// 	seg3: propTypes.number,
-// 	seg4: propTypes.number,
-// 	seg5: propTypes.number,
-// };
-
 let seconds = 0;
 setInterval(() => {
 	let segFive = Math.floor(seconds / 10000);
