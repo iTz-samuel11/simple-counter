@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home, { Counter } from "./component/home.jsx";
+import { Counter } from "./component/Counter.js";
 
 let seconds = 0;
 setInterval(() => {
